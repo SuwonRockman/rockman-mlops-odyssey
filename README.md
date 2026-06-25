@@ -53,7 +53,25 @@
 *   **Phase 5. Web Command Portal**: [Streamlit Visual Portal](./Season2_Cognitive_Search_GraphRAG/05_web_command_portal/)
     *   Streamlit 및 Vis.js 물리 엔진 연동 인터랙티브 지식 그래프 시각화 정비 검색 포털 UI 빌드.
 
+
 ---
+
+### ⚙️ [Season 3: Agent Swarm & MLOps](./Season3_Agent_Swarm_MLOps/)
+CMP 예지보전 모델과 GraphRAG 조치 검색망을 결합하는 LangGraph 멀티 에이전트 협업 체계를 설계하고, 실시간 데이터 드리프트를 모니터링하여 자동 재학습 및 배포하는 5단계 MLOps 프로덕션 구축 과정입니다. (진행 중)
+
+*   **Phase 1. Agent Collaboration**: [LangGraph Agent Swarm](./Season3_Agent_Swarm_MLOps/01_agent_collaboration/)
+    *   유향 순환 그래프 기반 LangGraph 상태 기계 설계 및 조건부 라우팅 예외 처리 구현.
+*   **Phase 2. Production API Service**: [FastAPI & Docker Service](./Season3_Agent_Swarm_MLOps/02_production_api_service/)
+    *   비동기 ASGI 이벤트 루프 FastAPI 개발 및 Docker 멀티스테이지 컨테이너 가상화 배포.
+*   **Phase 3. MLflow Tracking & Register**: [MLflow Experiment Tracker](./Season3_Agent_Swarm_MLOps/03_mlflow_tracking/)
+    *   모델 파라미터/성능 지표 자동 로깅 및 중앙 모델 레지스트리 라이프사이클 관리.
+*   **Phase 4. Data Drift & Monitoring**: [Evidently AI Monitor](./Season3_Agent_Swarm_MLOps/04_data_drift_monitoring/)
+    *   Kolmogorov-Smirnov 검정 및 PSI 통계량 계산 기반 실시간 센서 분포 변동(Drift) 분석.
+*   **Phase 5. Automated CI/CD & Retraining**: [CT/CD Pipeline](./Season3_Agent_Swarm_MLOps/05_automated_pipeline/)
+    *   데이터 분포 변동 감지 시 자동 재학습(CT) 트리거 및 GitHub Actions 연동 자동화 배포(CD).
+
+---
+
 
 
 ## 🛠️ 기술 스택 (Tech Stack)
