@@ -1,11 +1,16 @@
-# 🧠 Phase 3: Equipment Failure Classification
+# 🌲 Phase 3: Equipment Failure Classification
 
-정제되고 증폭된 CMP 센서 피처를 활용하여 설비 고장 상태를 사전에 감지하는 다중 분류 예측 시스템을 구현합니다.
+본 단계에서는 CMP 공정 내 설비 장애 여부를 신속하게 감지할 수 있도록 XGBoost 앙상블 의사결정 트리 모델을 설계하고 분류를 수행합니다.
 
-## 학습 주제
-1. **트리 앙상블 분류기 학습**: XGBoost 및 LightGBM을 이용한 설비 이상 분류기 학습.
-2. **다차원 모델 검증**: Precision, Recall, F1-Score 확인 및 Confusion Matrix 시각화로 정밀 평가.
-3. **Optuna 자동 튜닝**: 모델의 주요 하이퍼파라미터 조합을 자동 탐색하여 성능 최대화.
+---
 
-## 실습 파일
-* [03_failure_classification.ipynb](./03_failure_classification.ipynb)
+## 📂 목차 (Contents)
+
+- **`01_theory.md`**: XGBoost의 2차 Taylor 근사 목적 함수 손실 유도, 단말 노드 최적 가중치 공식 및 트리 분할 품질 스코어 증명
+- **`02_failure_classification.ipynb`**: XGBoost 분류 모델 학습, ROC-AUC 곡선 평가 및 하이퍼파라미터 튜닝 구현 실습 노트북
+
+---
+
+## 🛠️ 기술 스택 (Tech Stack)
+- Python, Pandas, Numpy, Scikit-learn
+- Jupyter Notebook

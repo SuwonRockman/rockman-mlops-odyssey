@@ -1,11 +1,16 @@
-# ⚙️ Phase 5: Explainable AI & Root Cause Analysis
+# 🔍 Phase 5: Explainable AI & Root Cause Analysis
 
-학습된 예측 분류 모델의 신뢰성을 보장하고 왜 모델이 고장을 감지했는지 설명하기 위해, **SHAP (Shapley Additive exPlanations)** 분석 기법을 실습합니다.
+본 단계에서는 복잡한 블랙박스 머신러닝 예측 모델의 판정 기여도를 정량적으로 해석하고 고장의 근본 원인을 분석(Root Cause Analysis)하는 XAI 엔진을 구축합니다.
 
-## 학습 주제
-1. **SHAP 기여도 연산**: 트리 앙상블 기하학적 분석용 TreeExplainer 객체 선언 및 섑리 값(Shapley Values) 행렬 추출.
-2. **글로벌 해석 (Global Explanation)**: 전체 센서 특성 중에서 가장 지배적인 영향력을 행사하는 핵심 센서 인자 파악 (Summary Plot).
-3. **로컬 해석 및 근본 원인 역추적 (RCA)**: 개별 장비 고장 탐지 건에 대해 모델의 결정을 양/음의 인자 기여도로 분해하여 시각화 (Force Plot) 및 고장 원인 추적.
+---
 
-## 실습 파일
-* [05_explainable_ai_rca.ipynb](./05_explainable_ai_rca.ipynb)
+## 📂 목차 (Contents)
+
+- **`01_theory.md`**: SHAP의 협력 게임 이론 기반 섀플리 값 정의 공식, 효율성/대칭성/더미/가산성 4대 공리 및 LIME 국소 설명 모델 비교
+- **`02_explainable_ai_rca.ipynb`**: SHAP 라이브러리 연동 모델 기여도 시각화, 요인별 영향성 평가 및 근본 원인 도출 구현 실습 노트북
+
+---
+
+## 🛠️ 기술 스택 (Tech Stack)
+- Python, Pandas, Numpy, Scikit-learn
+- Jupyter Notebook

@@ -1,11 +1,16 @@
-# 🏢 Phase 4: RUL (Remaining Useful Life) Regression
+# ⏱️ Phase 4: RUL (Remaining Useful Life) Regression
 
-설비가 고장나거나 부품을 세척/교체하기 직전까지 남아있는 유효 가동 시간인 **잔여 수명 (RUL)**을 예측하기 위해 시계열 회귀 모델링 기법을 적용합니다.
+본 단계에서는 장비의 노화 패턴을 반영하기 위한 Piecewise Linear RUL 수명 타겟팅을 설계하고, 잔여 유효 수명을 장주기 회귀 분석으로 예측합니다.
 
-## 학습 주제
-1. **RUL 라벨 설계**: 패드 마모 속도 및 누적 가공 시간에 맞춘 Piecewise Linear RUL 설계.
-2. **시계열 회귀 학습**: Random Forest 및 XGBoost Regressor 기반 수명 곡선 피팅.
-3. **예측 결과 시각화**: MAE 및 RMSE 지표 검출 및 실제 RUL 감소 추세와 모델 예측 추세선 비교 시각화.
+---
 
-## 실습 파일
-* [04_rul_regression.ipynb](./04_rul_regression.ipynb)
+## 📂 목차 (Contents)
+
+- **`01_theory.md`**: 조각 선형 RUL(Piecewise Linear) 라벨 설계 이론 및 NASA C-MAPSS의 비대칭 지수 페널티 스코어 평가지표 분석
+- **`02_rul_regression.ipynb`**: CMP 설비 부품 잔여 수명 회귀 모델링 및 비대칭 스코어 평가 구현 실습 노트북
+
+---
+
+## 🛠️ 기술 스택 (Tech Stack)
+- Python, Pandas, Numpy, Scikit-learn
+- Jupyter Notebook
