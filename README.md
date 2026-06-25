@@ -39,6 +39,23 @@
 
 ---
 
+### 🕸️ [Season 2: Cognitive Search & GraphRAG](./Season2_Cognitive_Search_GraphRAG/)
+비정형 반도체 CMP 공정 설비 매뉴얼에서 Entity와 Relation 지식 트리플렛을 추출하고 Neo4j 그래프 데이터베이스에 적재하여 하이브리드 검색망을 구축하는 5단계 실습 과정입니다. (진행 중)
+
+*   **Phase 1. Structural Ingest & Parsing**: [Markdown Chunking](./Season2_Cognitive_Search_GraphRAG/01_structural_ingest_parsing/)
+    *   정규식 기반 마크다운 청킹, 출처용 메타데이터 태깅, 반도체 CMP 공정 매뉴얼 원본 데이터 적재.
+*   **Phase 2. Knowledge Triplet Extraction**: [LLM Triplet Extraction](./Season2_Cognitive_Search_GraphRAG/02_knowledge_triplet_extraction/)
+    *   LLM Few-shot 프롬프트 가이드라인 설계 및 JSON Schema 통제 기반 지식 삼항조 추출.
+*   **Phase 3. Neo4j Graph DB Integration**: [Graph DB Modeling](./Season2_Cognitive_Search_GraphRAG/03_neo4j_integration/)
+    *   LPG 속성 그래프 모델 구축 및 Cypher 멱등성 쿼리(MERGE) 대규모 지식 적재 자동화.
+*   **Phase 4. Cognitive Hybrid Retrieval**: [Hybrid Retrieval](./Season2_Cognitive_Search_GraphRAG/04_cognitive_hybrid_retrieval/)
+    *   Dense Vector 의미 유사도 및 그래프 네트워크 구조 위상 결합 하이브리드 검색 랭킹 계산.
+*   **Phase 5. Web Command Portal**: [Streamlit Visual Portal](./Season2_Cognitive_Search_GraphRAG/05_web_command_portal/)
+    *   Streamlit 및 Vis.js 물리 엔진 연동 인터랙티브 지식 그래프 시각화 정비 검색 포털 UI 빌드.
+
+---
+
+
 ## 🛠️ 기술 스택 (Tech Stack)
 
 ### Core Machine Learning & Math
